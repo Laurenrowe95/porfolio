@@ -1,28 +1,4 @@
-<style>
-  .gold-text {color:#805500;}
-  .important {font-weight: bold;}
-  .white-text {color: white;}
-  .purple-bold {color: purple;font-weight: bold;}
-  .important:hover {background-color: pink;}
-  .white-background {background-color: white;}
-  .blue-background {background-color: blue;}
-  .red-background {background-color: red;}
-  .orange-background {background-color: orange;}
-  .brown-text {color: #663300;}
-  .purple-background {background-color: purple;}
-  .small-text {font-weight: lighter;}
-  a {
-    color: red;
-    background-color: blue;
-    padding: 1rem;
-  }
-  a[href="file:///Users/laurenrowe/Desktop/html100/semantic-elements/index.html"] {background-color: #006699;
-  padding: 0.8rem;}
-  a[href="index.html"] {background-color: #007700;
-  padding: 0.7rem;}
-  a[href="#"] {background-color: white;
-  padding: 0.5rem;}
-  body {background-color: #006666}
+
   h1{
     color: #862d59;
     border-style: solid;
@@ -58,4 +34,39 @@
     border-width: 6px;
     width: 25%
   }
-</style>
+  a {
+    color: red;
+    background-color: blue;
+    padding: 1rem;
+  }
+  a[href="file:///Users/laurenrowe/Desktop/html100/semantic-elements/index.html"] {background-color: #006699;
+  padding: 0.8rem;}
+  a[href="index.html"] {background-color: #007700;
+  padding: 0.7rem;}
+  a[href="#"] {background-color: white;
+  padding: 0.5rem;}
+
+  body {background-color: #006666}
+  .gold-text {color:#805500;}
+  .important {font-weight: bold;}
+  .white-text {color: white;}
+  .purple-bold {color: purple;font-weight: bold;}
+  .important:hover {background-color: pink;}
+  .white-background {background-color: white;}
+  .blue-background {background-color: blue;}
+  .red-background {background-color: red;}
+  .orange-background {background-color: orange;}
+  .brown-text {color: #663300;}
+  .purple-background {background-color: purple;}
+  .small-text {font-weight: lighter;}
+
+  .box {
+    width: 400px;
+    background: gray;
+  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
