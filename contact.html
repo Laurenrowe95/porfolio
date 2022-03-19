@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <script src="https://kit.fontawesome.com/30e1ed5606.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      a:hover {
+        color: blue;
+      }
+      img:hover {-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">About Me</a>
+      <a class="important" href="projects.html">Projects</a>
+    </nav>
+    <h1> Contact Me</h1>
+    <form method="GET">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email">
+      <fieldset>
+     <legend>Are you interested in signing up for my newsletter?</legend>
+     <label>
+       <input type="radio" name="newsletter" value="yes">Yes
+     </label>
+   </fieldset>
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="mexico">Mexico</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Why are you contacting me?" style="width:300px">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+  </html>
